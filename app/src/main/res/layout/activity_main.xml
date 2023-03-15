@@ -47,10 +47,9 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
         android:background="@drawable/button_rounded_shape"
-        android:backgroundTint="#0FB4E1"
         android:text="join us"
         android:textColor="@color/white"
         android:textSize="20sp"
