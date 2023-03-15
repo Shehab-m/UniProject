@@ -27,7 +27,7 @@
         android:textColor="#0FB4E1"
         android:padding="10dp"
         android:gravity="center"
-        android:text="We help you                       until you reach the health you deserve"
+        android:text="@string/welcome_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -36,7 +36,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Let's Start"
+        android:text="Let's Start?"
         android:textSize="28sp"
         android:textColor="#0FB4E1"
         app:layout_constraintBottom_toTopOf="@+id/button"
