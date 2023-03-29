@@ -7,9 +7,26 @@
 
     <fragment
         android:id="@+id/sign_up_fragment"
-        android:name="com.projects.healthzone.SignUp"
+        android:name="com.projects.healthzone.WelcomeFragment"
         android:label="fragment_main"
-        tools:layout="@layout/fragment_sign_up">
+        tools:layout="@layout/fragment_welcome">
 
+        <action
+            android:id="@+id/action_sign_up_fragment_to_calculatorFragment"
+            app:destination="@id/calculatorFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/calculatorFragment"
+        android:name="com.projects.healthzone.SignInFragment"
+        android:label="fragment_calculator"
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/action_calculatorFragment_to_calculatorFragment2"
+            app:destination="@id/calculatorFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/calculatorFragment2"
+        android:name="com.projects.healthzone.CalculatorFragment"
+        android:label="fragment_calculator"
+        tools:layout="@layout/fragment_calculator" />
 </navigation>
